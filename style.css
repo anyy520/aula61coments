@@ -1,0 +1,24 @@
+body {
+    text-align: center;/* o body no centro  */
+}
+
+h1 {
+    font-size: 40px;/* tamanho do titulo */
+    font-family: sans-serif;/* escolhendo a fonte da letra */
+    font-weight:900;/* alguns ajustes na letra ex :https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight  */
+}
+
+#app {
+    background-color: aliceblue;  /* backgroud . Ela ajusta a cor de fundo de um elemento. */
+}
+#game{ 
+    background-color:lightcoral;/*  background-color: Ela ajusta a cor de fundo de um elemento. */
+}
+
+.line {
+    height: 6px;/*Concederá a altura de 6px */
+    background-color: #000;/* Modifique o background-color(cor de fundo) para black(preto) */
+    width: 70px;/* Torne a width(largura) para 70px*/
+    margin: 8px auto;/* Isso significa que será concedido uma margem de 8px ao topo e à base. E, auto margin à esquerda e à direita,
+     ou seja, serão alinhados ao centro da página. */
+}
